@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat con Dialogflow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .chat-container {
+            text-align: center;
+        }
+        /* Estilo personalizado para el encabezado del chatbot */
+        .b-agent-demo .b-agent-demo_header {
+            background-color: red !important; /* Cambia el color de fondo del encabezado */
+        }
+        iframe {
+            border: none;
+            width: 350px; /* Ajusta el ancho del iframe según tus necesidades */
+            height: 430px; /* Ajusta la altura del iframe según tus necesidades */
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h1>Profebot</h1>
+        <iframe
+            allow="microphone;"
+            width="350"
+            height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/b769c5c8-dd91-4f71-a8c1-135e0dbe780b">
+        </iframe>
+    </div>
+</body>
+</html>
